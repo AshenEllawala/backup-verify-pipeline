@@ -1,0 +1,17 @@
+@"
+# Credentials — never commit these
+*.env
+connection_string.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Local backup files
+corrupt_test.sql
+
+# ngrok
+ngrok.exe
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+.env
